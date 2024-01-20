@@ -14,6 +14,7 @@
 		44D978602B5B009100D88A57 /* control_componentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D9785F2B5B009100D88A57 /* control_componentTests.swift */; };
 		44D9786A2B5B009100D88A57 /* control_componentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D978692B5B009100D88A57 /* control_componentUITests.swift */; };
 		44D9786C2B5B009100D88A57 /* control_componentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D9786B2B5B009100D88A57 /* control_componentUITestsLaunchTests.swift */; };
+		44D978792B5C223A00D88A57 /* ColourPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D978782B5C223A00D88A57 /* ColourPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		44D978652B5B009100D88A57 /* control-componentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "control-componentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D978692B5B009100D88A57 /* control_componentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = control_componentUITests.swift; sourceTree = "<group>"; };
 		44D9786B2B5B009100D88A57 /* control_componentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = control_componentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44D978782B5C223A00D88A57 /* ColourPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				44D9784E2B5B008F00D88A57 /* control_componentApp.swift */,
 				44D978502B5B008F00D88A57 /* ContentView.swift */,
+				44D978782B5C223A00D88A57 /* ColourPicker.swift */,
 				44D978522B5B009100D88A57 /* Assets.xcassets */,
 				44D978542B5B009100D88A57 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44D978512B5B008F00D88A57 /* ContentView.swift in Sources */,
+				44D978792B5C223A00D88A57 /* ColourPicker.swift in Sources */,
 				44D9784F2B5B008F00D88A57 /* control_componentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +356,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Glowstick;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -408,6 +413,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = Glowstick;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -425,6 +431,7 @@
 				DEVELOPMENT_TEAM = J77S5JK9F6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Glowstick;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +461,7 @@
 				DEVELOPMENT_TEAM = J77S5JK9F6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Glowstick;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
