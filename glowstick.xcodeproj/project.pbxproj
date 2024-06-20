@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44D9784F2B5B008F00D88A57 /* control_componentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D9784E2B5B008F00D88A57 /* control_componentApp.swift */; };
+		44D9784F2B5B008F00D88A57 /* glowstickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D9784E2B5B008F00D88A57 /* glowstickApp.swift */; };
 		44D978512B5B008F00D88A57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D978502B5B008F00D88A57 /* ContentView.swift */; };
 		44D978532B5B009100D88A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D978522B5B009100D88A57 /* Assets.xcassets */; };
 		44D978562B5B009100D88A57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D978552B5B009100D88A57 /* Preview Assets.xcassets */; };
-		44D978602B5B009100D88A57 /* control_componentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D9785F2B5B009100D88A57 /* control_componentTests.swift */; };
-		44D9786A2B5B009100D88A57 /* control_componentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D978692B5B009100D88A57 /* control_componentUITests.swift */; };
-		44D9786C2B5B009100D88A57 /* control_componentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D9786B2B5B009100D88A57 /* control_componentUITestsLaunchTests.swift */; };
+		44D978602B5B009100D88A57 /* glowstickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D9785F2B5B009100D88A57 /* glowstickTests.swift */; };
+		44D9786A2B5B009100D88A57 /* glowstickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D978692B5B009100D88A57 /* glowstickUITests.swift */; };
+		44D9786C2B5B009100D88A57 /* glowstickUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D9786B2B5B009100D88A57 /* glowstickUITestsLaunchTests.swift */; };
 		44D978792B5C223A00D88A57 /* ColourPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D978782B5C223A00D88A57 /* ColourPicker.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,16 +35,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		44D9784B2B5B008F00D88A57 /* control-component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "control-component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44D9784E2B5B008F00D88A57 /* control_componentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = control_componentApp.swift; sourceTree = "<group>"; };
+		44D9784B2B5B008F00D88A57 /* glowstick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glowstick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D9784E2B5B008F00D88A57 /* glowstickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glowstickApp.swift; sourceTree = "<group>"; };
 		44D978502B5B008F00D88A57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44D978522B5B009100D88A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44D978552B5B009100D88A57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		44D9785B2B5B009100D88A57 /* control-componentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "control-componentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44D9785F2B5B009100D88A57 /* control_componentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = control_componentTests.swift; sourceTree = "<group>"; };
-		44D978652B5B009100D88A57 /* control-componentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "control-componentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44D978692B5B009100D88A57 /* control_componentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = control_componentUITests.swift; sourceTree = "<group>"; };
-		44D9786B2B5B009100D88A57 /* control_componentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = control_componentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44D9785B2B5B009100D88A57 /* glowstickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glowstickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D9785F2B5B009100D88A57 /* glowstickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glowstickTests.swift; sourceTree = "<group>"; };
+		44D978652B5B009100D88A57 /* glowstickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glowstickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D978692B5B009100D88A57 /* glowstickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glowstickUITests.swift; sourceTree = "<group>"; };
+		44D9786B2B5B009100D88A57 /* glowstickUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glowstickUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		44D978782B5C223A00D88A57 /* ColourPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,9 +76,9 @@
 		44D978422B5B008F00D88A57 = {
 			isa = PBXGroup;
 			children = (
-				44D9784D2B5B008F00D88A57 /* control-component */,
-				44D9785E2B5B009100D88A57 /* control-componentTests */,
-				44D978682B5B009100D88A57 /* control-componentUITests */,
+				44D9784D2B5B008F00D88A57 /* glow-stick */,
+				44D9785E2B5B009100D88A57 /* glow-stickTests */,
+				44D978682B5B009100D88A57 /* glowstickUITests */,
 				44D9784C2B5B008F00D88A57 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,23 +86,23 @@
 		44D9784C2B5B008F00D88A57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44D9784B2B5B008F00D88A57 /* control-component.app */,
-				44D9785B2B5B009100D88A57 /* control-componentTests.xctest */,
-				44D978652B5B009100D88A57 /* control-componentUITests.xctest */,
+				44D9784B2B5B008F00D88A57 /* glowstick.app */,
+				44D9785B2B5B009100D88A57 /* glowstickTests.xctest */,
+				44D978652B5B009100D88A57 /* glowstickUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		44D9784D2B5B008F00D88A57 /* control-component */ = {
+		44D9784D2B5B008F00D88A57 /* glow-stick */ = {
 			isa = PBXGroup;
 			children = (
-				44D9784E2B5B008F00D88A57 /* control_componentApp.swift */,
+				44D9784E2B5B008F00D88A57 /* glowstickApp.swift */,
 				44D978502B5B008F00D88A57 /* ContentView.swift */,
 				44D978782B5C223A00D88A57 /* ColourPicker.swift */,
 				44D978522B5B009100D88A57 /* Assets.xcassets */,
 				44D978542B5B009100D88A57 /* Preview Content */,
 			);
-			path = "control-component";
+			path = "glow-stick";
 			sourceTree = "<group>";
 		};
 		44D978542B5B009100D88A57 /* Preview Content */ = {
@@ -113,29 +113,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		44D9785E2B5B009100D88A57 /* control-componentTests */ = {
+		44D9785E2B5B009100D88A57 /* glow-stickTests */ = {
 			isa = PBXGroup;
 			children = (
-				44D9785F2B5B009100D88A57 /* control_componentTests.swift */,
+				44D9785F2B5B009100D88A57 /* glowstickTests.swift */,
 			);
-			path = "control-componentTests";
+			path = "glow-stickTests";
 			sourceTree = "<group>";
 		};
-		44D978682B5B009100D88A57 /* control-componentUITests */ = {
+		44D978682B5B009100D88A57 /* glowstickUITests */ = {
 			isa = PBXGroup;
 			children = (
-				44D978692B5B009100D88A57 /* control_componentUITests.swift */,
-				44D9786B2B5B009100D88A57 /* control_componentUITestsLaunchTests.swift */,
+				44D978692B5B009100D88A57 /* glowstickUITests.swift */,
+				44D9786B2B5B009100D88A57 /* glowstickUITestsLaunchTests.swift */,
 			);
-			path = "control-componentUITests";
+			path = glowstickUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		44D9784A2B5B008F00D88A57 /* control-component */ = {
+		44D9784A2B5B008F00D88A57 /* glowstick */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44D9786F2B5B009100D88A57 /* Build configuration list for PBXNativeTarget "control-component" */;
+			buildConfigurationList = 44D9786F2B5B009100D88A57 /* Build configuration list for PBXNativeTarget "glowstick" */;
 			buildPhases = (
 				44D978472B5B008F00D88A57 /* Sources */,
 				44D978482B5B008F00D88A57 /* Frameworks */,
@@ -145,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = "control-component";
+			name = glowstick;
 			productName = "control-component";
-			productReference = 44D9784B2B5B008F00D88A57 /* control-component.app */;
+			productReference = 44D9784B2B5B008F00D88A57 /* glowstick.app */;
 			productType = "com.apple.product-type.application";
 		};
-		44D9785A2B5B009100D88A57 /* control-componentTests */ = {
+		44D9785A2B5B009100D88A57 /* glowstickTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44D978722B5B009100D88A57 /* Build configuration list for PBXNativeTarget "control-componentTests" */;
+			buildConfigurationList = 44D978722B5B009100D88A57 /* Build configuration list for PBXNativeTarget "glowstickTests" */;
 			buildPhases = (
 				44D978572B5B009100D88A57 /* Sources */,
 				44D978582B5B009100D88A57 /* Frameworks */,
@@ -163,14 +163,14 @@
 			dependencies = (
 				44D9785D2B5B009100D88A57 /* PBXTargetDependency */,
 			);
-			name = "control-componentTests";
+			name = glowstickTests;
 			productName = "control-componentTests";
-			productReference = 44D9785B2B5B009100D88A57 /* control-componentTests.xctest */;
+			productReference = 44D9785B2B5B009100D88A57 /* glowstickTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		44D978642B5B009100D88A57 /* control-componentUITests */ = {
+		44D978642B5B009100D88A57 /* glowstickUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44D978752B5B009100D88A57 /* Build configuration list for PBXNativeTarget "control-componentUITests" */;
+			buildConfigurationList = 44D978752B5B009100D88A57 /* Build configuration list for PBXNativeTarget "glowstickUITests" */;
 			buildPhases = (
 				44D978612B5B009100D88A57 /* Sources */,
 				44D978622B5B009100D88A57 /* Frameworks */,
@@ -181,9 +181,9 @@
 			dependencies = (
 				44D978672B5B009100D88A57 /* PBXTargetDependency */,
 			);
-			name = "control-componentUITests";
+			name = glowstickUITests;
 			productName = "control-componentUITests";
-			productReference = 44D978652B5B009100D88A57 /* control-componentUITests.xctest */;
+			productReference = 44D978652B5B009100D88A57 /* glowstickUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 44D978462B5B008F00D88A57 /* Build configuration list for PBXProject "control-component" */;
+			buildConfigurationList = 44D978462B5B008F00D88A57 /* Build configuration list for PBXProject "glowstick" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				44D9784A2B5B008F00D88A57 /* control-component */,
-				44D9785A2B5B009100D88A57 /* control-componentTests */,
-				44D978642B5B009100D88A57 /* control-componentUITests */,
+				44D9784A2B5B008F00D88A57 /* glowstick */,
+				44D9785A2B5B009100D88A57 /* glowstickTests */,
+				44D978642B5B009100D88A57 /* glowstickUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,7 +262,7 @@
 			files = (
 				44D978512B5B008F00D88A57 /* ContentView.swift in Sources */,
 				44D978792B5C223A00D88A57 /* ColourPicker.swift in Sources */,
-				44D9784F2B5B008F00D88A57 /* control_componentApp.swift in Sources */,
+				44D9784F2B5B008F00D88A57 /* glowstickApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44D978602B5B009100D88A57 /* control_componentTests.swift in Sources */,
+				44D978602B5B009100D88A57 /* glowstickTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44D9786C2B5B009100D88A57 /* control_componentUITestsLaunchTests.swift in Sources */,
-				44D9786A2B5B009100D88A57 /* control_componentUITests.swift in Sources */,
+				44D9786C2B5B009100D88A57 /* glowstickUITestsLaunchTests.swift in Sources */,
+				44D9786A2B5B009100D88A57 /* glowstickUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +288,12 @@
 /* Begin PBXTargetDependency section */
 		44D9785D2B5B009100D88A57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 44D9784A2B5B008F00D88A57 /* control-component */;
+			target = 44D9784A2B5B008F00D88A57 /* glowstick */;
 			targetProxy = 44D9785C2B5B009100D88A57 /* PBXContainerItemProxy */;
 		};
 		44D978672B5B009100D88A57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 44D9784A2B5B008F00D88A57 /* control-component */;
+			target = 44D9784A2B5B008F00D88A57 /* glowstick */;
 			targetProxy = 44D978662B5B009100D88A57 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -427,7 +427,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"control-component/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"glow-stick/Preview Content\"";
 				DEVELOPMENT_TEAM = J77S5JK9F6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -442,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "sloane.control-component";
+				PRODUCT_BUNDLE_IDENTIFIER = sloane.glowstick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -457,7 +457,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"control-component/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"glow-stick/Preview Content\"";
 				DEVELOPMENT_TEAM = J77S5JK9F6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -472,7 +472,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "sloane.control-component";
+				PRODUCT_BUNDLE_IDENTIFIER = sloane.glowstick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -559,7 +559,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		44D978462B5B008F00D88A57 /* Build configuration list for PBXProject "control-component" */ = {
+		44D978462B5B008F00D88A57 /* Build configuration list for PBXProject "glowstick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44D9786D2B5B009100D88A57 /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44D9786F2B5B009100D88A57 /* Build configuration list for PBXNativeTarget "control-component" */ = {
+		44D9786F2B5B009100D88A57 /* Build configuration list for PBXNativeTarget "glowstick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44D978702B5B009100D88A57 /* Debug */,
@@ -577,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44D978722B5B009100D88A57 /* Build configuration list for PBXNativeTarget "control-componentTests" */ = {
+		44D978722B5B009100D88A57 /* Build configuration list for PBXNativeTarget "glowstickTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44D978732B5B009100D88A57 /* Debug */,
@@ -586,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44D978752B5B009100D88A57 /* Build configuration list for PBXNativeTarget "control-componentUITests" */ = {
+		44D978752B5B009100D88A57 /* Build configuration list for PBXNativeTarget "glowstickUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44D978762B5B009100D88A57 /* Debug */,
